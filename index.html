@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- <header>
+      <div class="container">
+        <div class="mt-5 pb-3">
+          <h3>Bookmarker</h3>
+        </div>
+      </div>
+    </header> -->
+    <h3 class="pt-5 pb-4 text-center">Bookmarker Site</h3>
+    <section class="bookMarks my-5">
+      <div class="container">
+        <div class="content bookMark">
+          <div class="data">
+            <p>Site Name</p>
+            <div class="text-center">
+              <input
+                id="inputName"
+                type="text"
+                placeholder="Bookmark Name"
+                class="form-control"
+              />
+              <div
+                id="alertName"
+                style="display: none"
+                class="alert alert-danger me-4 w-100"
+              >
+                <p>This is Invalid Name</p>
+              </div>
+            </div>
+          
+
+            <p class="pt-2">Site URL</p>
+            <div class="text-center">
+              <input
+                id="inputUrl"
+                type="text"
+                placeholder="Website URL"
+                class="form-control"
+              />
+              <div
+              id="alertUrl"
+              style="display: none"
+              class="alert alert-danger me-4 w-100"
+            >
+              <p>This is Invalid URL</p>
+            </div>
+              
+            
+            </div>
+        
+
+            <div class="text-center py-3">
+              <button class="btn btn-primary mb-5" id="sub-btn">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="displaySite" style="display:none ;">
+    <h2 class=" text-center py-3" style="font-size: 35px; color: #0aa2de;">Saved Bookmark</h2>
+    <div class="container content">
+      <div class="content2 py-5"></div>
+    </div>
+    </div>
+    <footer>
+      <div class="container py-4">
+        <p class=" text-center">Made By Ahmed Samir Sakr 💙 </p>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
