@@ -1,0 +1,128 @@
+body {
+  font-family: "arial", sans-serif;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.alert-error {
+  background-color: #333333;
+  color: #6d0000;
+  border: 1px solid #333333;
+}
+.alert {
+  padding: 0px !important;
+  margin-top: 5px !important;
+margin-top: 10px;
+  width: 80%;
+  border-radius: 5px;
+  text-align: center;
+}
+.alert p{
+  font-size: 14px;
+  padding: 0px !important;
+  margin: 5px !important;
+}
+body {
+  background-color: #333333  ;
+}
+h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0aa2de;
+}
+.row {
+  /* background-image: linear-gradient(#eee, #fff); */
+  background-color: #333333;
+  margin:15px 0.8px;
+  border: 1px solid #333333;
+  border-radius: 20px; 
+  transition:all .5s ;
+  cursor: pointer;
+}
+.row:hover{
+  background-color: #1c1a1a;
+}
+
+/* .bookMark{
+  background-color: rgb(238, 238, 238);
+} */
+.data{
+  background-color: #555555;
+border-radius: 20px;
+padding: 25px 0px;
+border-radius: 20px;
+padding: 20px 40px;
+}
+
+h2 {
+  color: #47cdcf;
+  font-size: 45px;
+  margin: 19.92px 0px;
+  font-weight: 700;
+}
+header .container {
+  color: #aaa;
+  padding: 20px;
+  border-bottom: 1px solid #999;
+  font-size: 25px;
+}
+.bookMark p,
+.bookMark h2 {
+  text-align: center;
+}
+input {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 80%;
+  font-size: 15px;
+}
+
+.content h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #178fba;
+}
+.content{
+  background-color: #555555;
+}
+.content p {
+  font-size: 20px;
+  color: #1b8aca;
+  font-weight: 700;
+}
+footer p {
+  font-size: 18px;
+  color: #aaaaaa;
+  font-weight: 700;
+  margin: 0;
+}
+footer{
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+  margin-top: 25px;
+}
+.btn {
+  padding: 10px 15px;
+  font-size: 15px;
+  margin: 15px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.1s;
+}
+.btn:hover {
+  box-shadow: 2px 5px 3px 0px #888;
+}
+.btn-primary {
+  background-color: #1167c4;
+  color: white;
+  border: 1px solid #1167c4;
+}
+.btn-primary:hover {
+  background-color: #0a3f77;
+  border: 1px solid #0a3f77;
+}
