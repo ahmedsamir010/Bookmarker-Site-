@@ -93,6 +93,7 @@ function visitUrl(i) {
 
 //    *** delete Data ***
 function deletData(deleteindex) {
+  alert("Are You Want To Delet This Item")
   dataContainer.splice(deleteindex, 1);
   displayData();
   localStorage.setItem("data", JSON.stringify(dataContainer));
